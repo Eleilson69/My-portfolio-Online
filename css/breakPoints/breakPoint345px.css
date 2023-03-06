@@ -1,0 +1,41 @@
+@media (max-width: 390px) {
+    .rds-conteiner {
+        width: 13.5rem;
+        height: 10.5rem;
+
+    }
+}
+
+
+@media (max-width: 350px) {
+    .title_page {
+        width: 70%;
+    }
+
+    .menu_toggle {
+        margin-right: 1rem;
+    }
+
+    .rds-conteiner {
+        width: 12.5rem;
+        height: 8.5rem;
+    }
+
+    .icon {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .icon i {
+        font-size: 5rem;
+    }
+
+    .dot {
+        top: 11.5rem;
+    }
+
+    .dot-card, 
+    .dot-card-two {
+        top: 13rem;
+    }
+}

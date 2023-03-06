@@ -1,0 +1,90 @@
+@media (max-width: 1120px) {
+
+    .card_clock {
+        padding: 2rem;
+        font-size: 2rem;
+    }
+
+    .card_profile {
+        width: 95%;
+    }    
+}
+
+@media (max-width: 1020px) {
+    html {
+        font-size: 50%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main_card_left, .main_card_right {
+        width: 100%;
+    }
+
+    .card_profile {
+        height: 69rem;
+    }
+
+    .profile h2 {
+        font-size: 2rem;
+    }
+    
+    .profile p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile_nav {
+        height: 5rem;
+    }
+
+    .profile_nav_left img {
+        width: 5rem;
+    }
+
+    .dot_one,
+    .dot_two,
+    .dot_three {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .dot {
+        top: 10rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .dot-card,
+    .dot-card-two {
+        top: 11rem;
+        width: 27rem;
+        height: 17.5rem;
+    }
+
+    .redes {
+        margin-top: 7rem;
+    }
+
+    .rds-conteiner {
+        width: 15rem;
+        height: 8.5rem;
+    }
+
+    .icon {
+        font-size: 3em;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .dot-card-two p {
+        font-size: 1.6em;
+    }
+
+    .svg_astronauta {
+        display: none;
+    }
+
+}

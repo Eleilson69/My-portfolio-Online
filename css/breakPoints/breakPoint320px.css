@@ -1,0 +1,151 @@
+@media (max-height: 622px) {
+    .main_card_left {
+        max-height: 97rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .main_card_left {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main_card_left {
+        max-height: 81rem;
+    }
+
+    .card_profile {
+        width: 450px;
+        height: 369px;
+    }
+
+    .profile_circle {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .title_page {
+        width: 80%;
+    }
+
+    .main_card_left {
+        max-height: 50rem;
+    }
+
+    .main_card_left {
+        max-height: 63rem;
+    }
+    
+    .card_profile {
+        width: 450px;
+        height: 286px;
+    }
+
+
+    .pofile_circle {
+        width: 12rem;
+        height: 12rem;
+    
+    }
+
+    .profile h2 {
+        font-size: 2.5rem;
+    }
+    
+    .profile p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card_profile {
+        height: 280px;
+    }
+
+    .redes {
+        margin-top: 3rem;
+    }
+
+    .rds-conteiner {
+        width: 11rem;
+        height: 8.5rem;
+    }
+
+    .icon {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .icon i {
+        font-size: 3.5rem;
+    }
+
+    .dot {
+        top: 10.5rem;
+    }
+
+    .dot-card, 
+    .dot-card-two {
+        top: 12rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .card_profile {
+        width: 450px;
+        height: 270px;
+    }
+    
+    .profile_card_content .artigo .artigo_scroll p {
+        font-size: 1.5rem;
+    }
+
+    .redes {
+        margin-top: 1rem;
+    }
+
+    .rds-conteiner {
+        width: 10rem;
+        height: 8.5rem;
+    }
+
+    .icon {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .icon i {
+        font-size: 4rem;
+    }
+
+    .dotPai {
+        height: 45rem;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .card_profile {
+        width: 450px;
+        height: 275px;
+    }
+
+    .profile_card_content .artigo .artigo_scroll h3 {
+        font-size: 1.3rem;
+    }
+    
+    .profile_card_content .artigo .artigo_scroll p {
+        font-size: 1.2rem;
+    }
+
+    .rds-conteiner {
+        width: 9rem;
+        height: 8.5rem;
+    }
+
+    .dotPai {
+        height: 40rem;
+    }
+}

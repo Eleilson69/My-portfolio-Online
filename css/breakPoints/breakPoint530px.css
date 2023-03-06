@@ -1,0 +1,101 @@
+@media (max-width: 530px) {
+
+    .header {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header .menu_and_clock {
+        display: none;
+    }
+
+    .title_page {
+        width: 55%;
+    }
+
+    .menu_toggle {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+    .clock {
+        display: none;
+    }
+
+    .bars {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding: 3px;
+        z-index: 10;
+    }
+
+    .menu-section.on {
+        display: flex;
+        position: absolute;
+        right: 0;
+        width: 40rem;
+        border-radius: 5px;
+        transition-duration: 0.3s;
+    }
+
+    .header .menu-section .menu_and_clock  ul {
+        display: none;
+        z-index: 5;
+        width: 10%;
+        flex-direction: column;
+        background: #641c79;
+        box-shadow: 0px 0px 10px #b319fb;
+        border-radius: 5px;
+    }
+
+    .header .menu-section .menu_and_clock  ul li {
+        margin: 0;
+        width: 100%;
+        border: solid transparent;
+    }
+
+    .header .menu-section.on .menu_and_clock  ul {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        margin-top: 5.5rem;
+        margin-right: 5.5rem;
+    }
+
+    .one, 
+    .two,
+    .three {
+        width: 6rem;
+        height: 4px;
+        background: #fff;
+        border-radius: 2px;
+        transition-duration: 0.3s;
+    }
+
+    .menu-section.on .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .two {
+        opacity: 0;
+    } 
+
+    .menu-section.on  .three {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+}
+

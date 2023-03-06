@@ -1,0 +1,488 @@
+@font-face {
+    font-family: 'PfTempestaSevenBold';
+    src: url(../fonts/PfTempestaSevenBold-wywx.ttf)format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PfTempestaSevenBold';
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    position: relative;
+    min-height: 400vh;
+    background-image: url(../imgs/fundo-for-portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: #7004c9;
+}
+
+.header {
+    text-align: center;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    max-width: 1366px;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid transparent;
+}
+
+.title_page {
+    width: 40%;
+    display: flex;
+    padding: 1rem;
+}
+
+.title_page h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.8rem;
+}
+
+.title_page  img {
+    width: 5rem;
+    height: 5rem;
+    transform: rotate(20deg);
+    margin: 3.4rem 0rem 3rem 0rem;
+}
+
+.menu-section {
+    width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.header .menu-section .menu_and_clock {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    height: 100%;
+    border: solid transparent;
+}
+
+.header .menu-section .menu_and_clock ul {
+    border: solid transparent;
+    width: 80%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem;
+}
+
+.header .menu-section .menu_and_clock  ul li {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
+.header .menu-section .menu_and_clock  ul li:hover {
+    background: #7004c9;
+    box-shadow: 0px 0px 10px #b319fb;
+}
+
+.header .menu-section .menu_and_clock  ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.card_clock {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2.5rem;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    font-size: 2.5rem;
+}
+
+.relogio {
+    position: absolute;
+    top: 2px;
+}
+
+.menu_toggle {
+    display: none;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+    border: solid transparent;
+    height: 550px;
+}
+
+.main_card_left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: solid transparent;
+}
+
+.card_profile {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    max-width: 560px;
+    max-height: 550px;
+    background-color: #13072590;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 0px 10px #b319fb;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid transparent;
+}
+
+.pofile_circle {
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid #b319fb;
+    box-shadow: 0px 0px 10px #b319fb;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    background-image: url(../imgs/69Malvadão.jpg);
+    background-size: cover;
+}
+
+.profile h2 {
+    font-size: 1.8rem;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.profile_card_content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+.profile_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+}
+
+.profile_nav_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #021A20;
+    border: 1px solid #021A20;
+}
+
+.profile_nav_left img {
+    display: flex;
+    width: 4rem;
+}
+
+.profile_nav_right {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.dot_one {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.dot_two {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #b319fb;
+    border-radius: 50%;
+}
+
+.dot_three {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.sobre {
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+    background: #021A20;
+    border: 1px solid #021A20;
+}
+
+.profile_card_content .artigo {
+    height: 100%;
+    border: 1rem solid #021A20;
+    overflow-Y: scroll;
+    background: #021A20;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.artigo_scroll {
+    height: 100%;
+}
+
+.profile_card_content .artigo .artigo_scroll p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#html {
+    color: rgb(255, 0, 72);
+}
+
+#css {
+    color: rgb(98, 70, 255);
+}
+
+#javascript {
+    color: rgb(249, 255, 70);
+}
+
+.main_card_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.svg_astronauta {
+    text-align: center;
+}
+ 
+.svg_astronauta img {
+    width: 37rem;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translatey(0)
+    }
+    50%{
+        transform:translatey(-10px)
+    }
+}
+
+.redes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes_conteiner {
+    display: flex;
+}
+
+.rds-conteiner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 10rem;
+    height: 6.5rem;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4em;
+    width: 6rem;
+    height: 6rem;
+    list-style: none;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #291d3d66;
+    box-shadow: 0px 0px 10px #b319fb;
+    cursor: pointer;
+}
+
+.icon i {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 6rem;
+    height: 6rem;
+    color: #fff;
+}
+
+.father_dot_1,
+.father_dot_2,
+.father_dot_3,
+.father_dot_4,
+.father_dot_5 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.dot {
+    z-index: 5;
+    position: absolute;
+    top: 7.5rem;
+    width: 2rem;
+    height: 2rem;
+    background: #021A20;
+    box-shadow: 0px 0px 10px #b319fb;
+    transform: rotate(45deg);
+}
+
+.dot-card {
+    width: 20rem;
+    position: absolute;
+    top: 8.5rem;
+    height: 14rem;
+    background: #021A20;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #b319fb;
+}
+
+.dot-card-two {
+    z-index: 6;
+    width: 20rem;
+    position: absolute;
+    top: 8.5rem;
+    height: 14rem;
+    background: #021A20;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #fff;
+}
+
+.dot_card_conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+
+.dot_card_conteudo p {
+    font-size: 1.3rem;
+}
+
+.dot_card_nav {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.dot_card_nav button {
+    width: 60%;
+    padding: 0.2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #F7004E, #00EAE3);
+    box-shadow: 0px 0px 5px #040404;
+}
+
+.margin_left {
+    left: 0.1rem;
+}
+
+.margin_right {
+    right: 0.1rem;
+}
+
+.dot_active {
+    display: flex;
+    animation: scale 0.2s linear;
+}
+
+@keyframes scale{
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

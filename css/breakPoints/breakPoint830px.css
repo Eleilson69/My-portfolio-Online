@@ -1,0 +1,115 @@
+@media (max-width: 900px) {
+    .card_clock {
+        font-size: 2.3rem;
+        padding: 2.2rem;
+    }
+    .menu-section {
+        width: 75%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main_card_left {
+        width: 100%;
+    }
+
+    .main_card_right {
+        width: 100%;
+    }
+
+    .card_profile {
+        width: 70rem;
+        height: 69rem;
+    }
+}
+
+@media (max-width: 830px) {
+    html {
+        font-size: 40%;
+    }
+
+    .card_clock {
+        font-size: 2.6rem;
+        padding: 2.6rem;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .pofile_circle {
+        width: 15rem;
+        height: 15rem;
+    
+    }
+
+    .profile h2 {
+        font-size: 3rem;
+    }
+    
+    .profile p {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile_nav_left img {
+        width: 5.5rem;
+    }
+
+    .dot_one,
+    .dot_two,
+    .dot_three {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .sobre {
+        font-size: 2.5rem;
+    }
+
+    .profile_card_content .artigo {
+        height: 100%;
+        background: #021A20;
+    }
+
+    .artigo_scroll {
+        height: 100%;
+    }
+
+    .profile_card_content .artigo .artigo_scroll p {
+        font-size: 2rem;
+    }
+
+    .rds-conteiner {
+        width: 14rem;
+        height: 10.5rem;
+    }
+
+    .icon {
+        font-size: 3.3em;
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .dot {
+        top: 11.5rem;
+    }
+
+    .dot-card, 
+    .dot-card-two {
+        width: 33.5rem;
+        top: 13rem;
+        height: 24.5rem;
+    }
+
+    .dot-card-two p {
+        font-size: 2.2em;
+    }
+
+    .dotPai {
+        width: 100%;
+        top: 10rem;
+    }
+}

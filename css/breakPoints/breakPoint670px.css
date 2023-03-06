@@ -1,0 +1,88 @@
+@media (max-width: 670px) {
+    html {
+        font-size: 35%;
+    }
+
+    .card_clock {
+        width: 90%;
+        font-size: 2rem;
+        padding: 2.1rem;
+    }
+
+    .menu-section {
+        width: 77%;
+    }
+
+    .header .menu-section .menu_and_clock ul {
+        margin-right: 1rem;
+    } 
+
+    .clock {
+        padding: 0.5rem;
+        font-size: 2.1rem;
+    }
+
+    .main {
+        flex-direction: column;
+        height: 180rem;
+    }
+
+    .main .main_card_left {
+        width: 100%;
+        max-height: 100vh;
+    }
+
+    .main .main_card_right {
+        width: 100%;
+    }
+
+    .main_card_left {
+        max-height: 80rem;
+    }
+
+    .profile h2 {
+        font-size: 3rem;
+    }
+    
+    .profile p {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile_nav {
+        height: 7rem;
+    }
+
+    .profile_nav_left img {
+        width: 6rem;
+    }
+
+    .dot_one,
+    .dot_two,
+    .dot_three {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .icon {
+        font-size: 3.3em;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .icon i {
+        font-size: 5rem;
+    }
+
+    .dot {
+        top: 12.5rem;
+    }
+
+    .dot-card, 
+    .dot-card-two {
+        top: 14rem;
+        width: 33.5rem;
+        height: 24.5rem;
+    }
+
+}
